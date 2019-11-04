@@ -6,7 +6,7 @@ export const Loading = styled.div`
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 100vh;
 `;
 
@@ -99,5 +99,19 @@ export const IssueList = styled.ul`
             font-size: 12px;
             color: #999;
         }
+    }
+`;
+
+export const IssueFilter = styled.div`
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+
+    button {
+        border-radius: 4px;
+        outline: 0;
+        border: 0;
+        padding: 8px;
+        margin: 0 2px;
     }
 `;
