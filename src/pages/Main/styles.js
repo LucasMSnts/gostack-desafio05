@@ -38,6 +38,10 @@ export const SubmitButton = styled.button.attrs(props => ({
     justify-content: center;
     align-items: center;
 
+    svg {
+        margin-left: 10px;
+    }
+
     &[disabled] {
         cursor: not-allowed;
         opacity: 0.6;
